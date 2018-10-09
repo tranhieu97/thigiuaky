@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+  <EditText
+      android:id="@+id/edt1"
+      android:layout_width="100dp"
+      android:layout_height="40dp"
+      android:inputType="number"
+      />
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/bt_cong"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:onClick="xuly"
+        tools:ignore="OnClick" />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="danh sach"
+       android:textSize="40dp" />
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+</LinearLayout>
